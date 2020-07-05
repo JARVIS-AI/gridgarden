@@ -30,6 +30,8 @@ var messages = {
     'ua': 'Українська',
     'no': 'Norsk',
     'pt-pt': 'Português (Portugal)',
+    'he': 'עברית',
+    'ca': 'Català',
   },
   next: {
     'en': 'Next',
@@ -62,6 +64,8 @@ var messages = {
     'ua': 'Наступний',
     'no': 'Neste',
     'pt-pt': 'Seguinte',
+    'he': 'הבא',
+    'ca': 'Següent',
   },
   labelFooter: {
     'en': 'Grid Garden is created by',
@@ -94,6 +98,8 @@ var messages = {
     'ua': 'Гру Grid Garden створено',
     'no': 'Grid Garden er laget av',
     'pt-pt': 'Grid Garden é uma criação de',
+    'he': 'Grid Garden נוצר על ידי',
+    'ca': 'Grid Garden és una creació de',
   },
   labelLevel: {
     'en': 'Level',
@@ -126,6 +132,8 @@ var messages = {
     'ua': 'Рівень',
     'no': 'Nivå',
     'pt-pt': 'Nível',
+    'he': 'שלב',
+    'ca': 'Nivell',
   },
   labelOf: {
     'en': 'of',
@@ -158,6 +166,8 @@ var messages = {
     'ua': 'з',
     'no': 'av',
     'pt-pt': 'de',
+    'he': 'של',
+    'ca': 'de',
   },
   title: {
     'en': 'Grid Garden - A game for learning CSS grid',
@@ -190,6 +200,8 @@ var messages = {
     'ua': 'Grid Garden - гра для вивчення CSS grid',
     'no': 'Grid Garden - Et spill for å lære seg CSS grid',
     'pt-pt': 'Grid Garden - Um jogo para aprender CSS Grid',
+    'he': 'Grid Garden - משחק שנועד כדי ללמוד CSS grid',
+    'ca': 'Grid Garden - Un joc per aprende CSS grid',
   },
   labelReset: {
     'en': 'Reset',
@@ -222,6 +234,8 @@ var messages = {
     'ua': 'Скинути',
     'no': 'Tilbakestill',
     'pt-pt': 'Reiniciar',
+    'he': 'אתחל',
+    'ca': 'Reiniciar',
   },
   warningReset: {
     'en': 'Are you sure you want to reset the game?\n\nYour saved progress will be lost and you\'ll be sent to the start of the game.',
@@ -254,6 +268,8 @@ var messages = {
     'ua': 'Ви насправді бажаєте скинути гру?\n\nВсі ваші надбання будуть втрачені й ви розпочнете з початку гри.',
     'no': 'Er du sikker på at du vil tilbakestille spillet?\n\nFremgangen din vil gå tapt og du må starte spillet helt på nytt.',
     'pt-pt': 'Tens a certeza que queres reiniciar o jogo?\n\nO teu progresso irá perder-se e voltarás ao início do jogo.',
+    'he': 'האם אתה בטוח שאתה רוצה לאתחל את המשחק?n\n ההתקדמות שלך תמחק ואתה תשלח להתחלת המשחק.',
+    'ca': 'Estàs segur que vols reiniciar el joc?\n\nEl teu progres es perdrà i seràs enviat a l\'inici del joc.',
   },
   warningUnsupported: {
     'en': 'Oh no, Grid Garden doesn\'t work on this browser. It requires <a href="http://caniuse.com/#feat=css-grid">a browser that supports CSS grid</a>, such as the latest version of <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, or <a href="http://www.apple.com/safari/">Safari</a>. Use one of those to get gardening!',
@@ -275,7 +291,10 @@ var messages = {
     'lv': 'Ak nē, Grid Garden nestrādā šajā pārlūkā. Spēlei ir nepieciešams <a href="http://caniuse.com/#feat=css-grid"> pārlūks, kas atbalsta CSS grid, kā piemēram jaunākā <a href="https://www.mozilla.org/firefox/">Firefox</a> , <a href="https://www.google.com/chrome/">Chrome</a> vai <a href="http://www.apple.com/safari/">Safari</a> versija. Uzliec kādu no šiem pārlūkiem un sāc spēli!',
     'no': 'Å nei, Grid Garden fungerer ikke i denne nettleseren. Spillet krever <a href="http://caniuse.com/#feat=css-grid">en nettleser som støtter CSS grid</a>, som for eksempel siste versjon av <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, eller <a href="http://www.apple.com/safari/">Safari</a>. Bruk en av disse for å komme i gang med hagearbeidet!',
     'pt-pt': 'Oh não, o Grid Garden não é suportado neste navegador. Requer <a href="http://caniuse.com/#feat=css-grid">um navegador que suporte CSS grid</a>, como por exemplo a última versão do <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, ou <a href="http://www.apple.com/safari/">Safari</a>. Utiliza um destes para começares o teu cultivo!',
-    'bg': 'О не, Grid Garden не работи във Вашия браузър. Играта изисква <a href="http://caniuse.com/#feat=css-grid">браузърът Ви да поддържа CSS grid</a>, както последните версии на <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, или <a href="http://www.apple.com/safari/">Safari</a>. Използвайте една от тях, за да започнете с градинарството!'
+    'bg': 'О не, Grid Garden не работи във Вашия браузър. Играта изисква <a href="http://caniuse.com/#feat=css-grid">браузърът Ви да поддържа CSS grid</a>, както последните версии на <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, или <a href="http://www.apple.com/safari/">Safari</a>. Използвайте една от тях, за да започнете с градинарството!',
+    'he': 'אוי לא, Grid Garden לא עובד בדפדפן זה. הוא דורש <a href="http://caniuse.com/#feat=css-grid"> דפדפן שתומך בCSS grid</a>, כמו הגרסה האחרונה של <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>,או <a href="http://www.apple.com/safari/">Safari</a>. השתמש באחד מהם על מנת להתחיל לגדל!',
+    'ca': 'Oh no, Grid Garden no funciona en aquest navegador. Requereix <a href="http://caniuse.com/#feat=css-grid">un navegador compatible amb CSS Grid</a>, com per exemple l\'última versió de <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, o <a href="http://www.apple.com/safari/">Safari</a>. Utilitza un d\'aquests per començar amb la jardineria.',
+    'vi': 'Ôi không!, Grid không thể hoạt động được trên trình duyệt này. Grid yêu cầu <a href="http://caniuse.com/#feat=css-grid">trình duyệt hỗ trợ CSS Grid</a>, ở các phiên bản <a href="https://www.mozilla.org/firefox/">Firefox</a>, <a href="https://www.google.com/chrome/">Chrome</a>, hoặc <a href="http://www.apple.com/safari/">Safari</a>. Hãy sử dụng các trình duyệt này để bắt đầu khu vườn của minh!',
   },
   flexboxFroggy: {
     'en': 'Want to learn CSS flexbox? Play',
@@ -294,5 +313,9 @@ var messages = {
     'no': 'Lyst til å lære deg CSS flexbox? Spill',
     'pt-pt': 'Queres aprender CSS flexbox? Joga',
     'bg': 'Искаш да научиш CSS flexbox? Играй',
+    'pl': 'Chcesz nauczyć się CSS flexbox? Zagraj w',
+    'he': 'רוצה ללמוד על CSS flexbox? שחק',
+    'ca': 'Vols aprendre CSS flexbox? Juguem',
+    'vi': 'Cậu muốn tìm hiểu thêm về CSS flexbox? Thử tại đây',
   },
 };
